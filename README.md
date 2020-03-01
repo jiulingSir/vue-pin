@@ -1,4 +1,4 @@
-# Vue-Tim
+# vue-recruit
 
 ``` bash
 # 安装依赖

@@ -7,16 +7,16 @@
     <div class="containerWrapper">
       <!-- <cube-scroll :data="chatMsg" ref="scroll"> -->
         <mt-loadmore ref="loadmore">
-        <ul ref="chatWrapper">
-          <li v-if="chatMsg"
-            class="chatItme"
-            :class="[$router.history.current.params.id == items.from? 'default':'myItem' ]" 
-            v-for="(items,index) in chatMsg"
-            :key="index">
-            <span class="avatar"></span>
-            <span class="content">{{items.content}}</span>
-          </li>
-        </ul>
+          <ul ref="chatWrapper">
+            <li v-if="chatMsg"
+              class="chatItme"
+              :class="[$router.history.current.params.id == items.from? 'default':'myItem' ]" 
+              v-for="(items,index) in chatMsg"
+              :key="index">
+              <span class="avatar"></span>
+              <span class="content">{{items.content}}</span>
+            </li>
+          </ul>
       <!-- </cube-scroll> -->
       </mt-loadmore>
     </div>

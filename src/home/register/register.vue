@@ -39,14 +39,12 @@
     data() {
       return {
         onLeft: true,
-        position: 'top',
         model: {
           User: '',
           Pwd: '',
           repeatPwd: '',
           type: 'genius',
         },
-        clearable: true,
         options: [
           {
             label: '我是BOSS',

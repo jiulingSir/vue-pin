@@ -26,9 +26,7 @@
         model: {
           User: '',
           Pwd: ''
-        },
-        clearable: true,
-        eye: {open: false, reverse: false}
+        }
       }
     },
     components: {
